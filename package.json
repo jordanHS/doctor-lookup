@@ -1,8 +1,8 @@
 {
-  "name": "dinosaur-hangman-api",
+  "name": "doctor-lookup",
   "version": "1.0.0",
-  "description": "tdd-starter",
-  "main": "main.js",
+  "description": "API project",
+  "main": "lookup-interface.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
     "build": "webpack --mode development",
