@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <link href="src/styles.css" rel="stylsheet" type=text/css>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="./main.js" type="text/javascript"></script>
@@ -13,13 +13,22 @@
       <form>
           <div class="form-group">
               <label for="name-search">Search by name:</label><br>
-              <input id="search" name="search" type="text" class="form-control">
+              <input id="nameInput" name="search" type="text" class="form-control">
           </div>
-          <div class="form-group"></div>
-          <label for="query-search">Search by Query</label><br>
-          <input id="search" name="search" type="text" class="form-control">
-          <button type="submit" class="btn btn-info">Search</button>
+          <div class="form-group">
+            <label for="query-search">Search by Query</label><br>
+            <input id="search" name="search" type="text" class="form-control">
+          </div>
+            <button type="submit" class="btn btn-info">Search</button>
         </form>
+
+        <div>
+        <h2 id="display">Doctors matching your search:</h2>
+          <ul>
+        
+          </ul>
+          
+        
   
    
     </div>
