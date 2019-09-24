@@ -1,7 +1,4 @@
-import { LookupService } from './../js/lookup-service.js';
-import DoctorFinder from './DoctorFinder';
-//import doctors from './../doctors.js';
-//import condition from './../condition.js';
+import { LookupService } from './js/lookup-service.js'
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
