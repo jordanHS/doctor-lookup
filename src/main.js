@@ -1,4 +1,4 @@
-import { LookupService } from './js/lookup-service.js'
+import  LookupService  from './lookup-service.js'
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +16,7 @@ $(document).ready(function() {
     promise.then(function(response) {
       let body = JSON.parse(response);
       $('.showDoctors').text(` Doctors matching your search for ${name} are ${body.main.doctors}%`);
-      $('.showShowdoctors').text(`Doctors with the speciality ${query}`);
+      $('.showSpecialty').text(`Doctors with the speciality ${query}`);
     }, function(error) {
       $('.showErrors').text(`There was an error processing your request: ${error.message}`);
     });
